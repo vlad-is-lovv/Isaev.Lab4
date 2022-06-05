@@ -25,7 +25,6 @@ Console.WriteLine("Введите дробные числа...");
 double z = Convert.ToDouble(Console.ReadLine());
 double w = Convert.ToDouble(Console.ReadLine());
 
-
 Console.WriteLine("Введите символы...");
 char q = Convert.ToChar(Console.ReadLine());
 char k = Convert.ToChar(Console.ReadLine());
