@@ -20,6 +20,7 @@
 Console.WriteLine("Введите целые числа...");
 int x = Convert.ToInt32(Console.ReadLine());
 int y = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine(ResultInt(x, y));
 
 Console.WriteLine("Введите дробные числа...");
 double z = Convert.ToDouble(Console.ReadLine());
@@ -29,5 +30,6 @@ double w = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Введите символы...");
 char q = Convert.ToChar(Console.ReadLine());
 char k = Convert.ToChar(Console.ReadLine());
+Console.WriteLine(ResultChar(q, k));
 
 Result(x, y, z, w,q,k); 
